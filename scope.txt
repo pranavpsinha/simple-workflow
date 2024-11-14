@@ -1,0 +1,65 @@
+[highlights]
+
+1. purely pub-sub driven for everything
+2. allow users to define checkpoints with topic for pub-sub
+3. cron job to run and re-attempt pub in case any step stuck --for system failures at app
+4. progress tracker %basis by number of steps involved and their weightage
+5. sub-flows integration to keep the definition language neat
+6. some templates as examples --use orders
+7. multiple-people collaboration on a task/step
+8. data storage at each step
+9. cron job to emit daily summaries / reminders for deadlines etc.
+10. data security --all data encrypted
+11. analytics --avg time spent per step per workflow/subflow --daily reports
+12. reassignment --track for every flow / step the time a certain user stayed --expose as report
+13. archive completed instances with detailed logs to a backup directory
+
+================================================================================================================
+
+1. Workflow Automation
+Automated Task Assignment: Routes tasks to the right people or teams based on predefined rules.
+Trigger-based Actions: Executes specific actions (like notifications, status updates, or next-step assignments) when certain conditions are met.
+Recurring Workflows: Supports workflows that need to repeat on a daily, weekly, or monthly basis.
+
+2. Task and Project Management
+Task Creation and Assignment: Lets users create, assign, and manage tasks, with details such as deadlines, priorities, and dependencies.
+Progress Tracking: Visual indicators like checklists, percentage completion, and status updates for each task.
+Subtasks and Dependencies: Breaks down larger tasks and shows dependencies, so users know what needs to be done before the next step can begin.
+
+3. Customizable Workflow Templates
+Prebuilt Templates: Provides templates for common workflows (e.g., HR onboarding, marketing campaigns, bug tracking).
+Custom Workflow Creation: Enables users to design workflows to suit specific processes or requirements.
+Conditional Branching: Supports branching logic to customize the flow based on task results or conditions.
+
+4. Collaboration and Communication Tools
+Real-Time Collaboration: Allows team members to work on tasks simultaneously with real-time updates.
+Comments and Mentions: Users can leave comments and tag others, making it easy to collaborate directly within tasks.
+File Sharing: Ability to attach and view relevant files or documents within each task.
+
+5. Notifications and Reminders
+Customizable Notifications: Alerts users to important events (such as approaching deadlines, task updates, or assigned tasks).
+Email and Mobile Notifications: Sends updates via email or mobile app notifications.
+Daily Summaries: Provides a summary of tasks or deadlines for the day to help users stay organized.
+
+6. Reporting and Analytics
+Real-Time Reporting: Offers insights into current workload, bottlenecks, and task completion rates.
+Customizable Dashboards: Lets users build dashboards with charts and graphs to visualize data.
+Performance Metrics: Tracks metrics like task duration, completion rates, and employee productivity.
+
+7. Access Control and Permissions
+User Roles and Permissions: Allows administrators to control access to tasks, workflows, and projects based on roles.
+Data Security and Compliance: Ensures data integrity with encryption and compliance standards (e.g., GDPR, HIPAA).
+
+8. Integration with Other Tools
+API and Webhooks: Allows integration with other software systems (e.g., Slack, CRM, ERP).
+Third-Party Integrations: Works seamlessly with commonly used tools like Google Workspace, Microsoft 365, Slack, etc.
+
+9. Time Tracking and Billing
+Time Tracking: Allows users to log hours spent on tasks for better resource management.
+Budgeting and Cost Tracking: Provides budgeting options to track costs associated with projects or tasks.
+Billing and Invoicing: Generates invoices based on tracked time and predefined rates.
+
+10. Audit Trail and Documentation
+Activity Logs: Keeps a record of changes, assignments, and other actions taken within the workflow.
+Documentation Storage: Lets users attach documents and notes to workflows or tasks for easy reference.
+Compliance and Audits: Maintains a clear history of changes to meet compliance requirements.
